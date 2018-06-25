@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Scene-Trans01
 //
-//  Created by juhyeonjeong on 2018. 6. 19..
+//  Created by juhyeonjeong on 2018. 6. 25..
 //  Copyright © 2018년 juhyeonjeong. All rights reserved.
 //
 
@@ -19,13 +19,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func moveNext(_ sender: Any){
-        let uvc = self.storyboard!.instantiateViewController(withIdentifier: "SecondVC")
+
+    @IBAction func moveNext(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let uvc = self.storyboard!.instantiateViewController(withIdentifier:"SecondVC")
         uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
         self.present(uvc, animated: true)
+        
     }
-
-
+    
 }
 

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Scene-Trans01
 //
-//  Created by juhyeonjeong on 2018. 6. 19..
+//  Created by juhyeonjeong on 2018. 6. 25..
 //  Copyright © 2018년 juhyeonjeong. All rights reserved.
 //
 
